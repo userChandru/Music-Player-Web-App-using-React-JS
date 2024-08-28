@@ -1,0 +1,44 @@
+/music-player-project
+├── /public
+│   ├── index.html
+│   └── favicon.ico
+├── /src
+│   ├── /assets
+│   │   ├── /images
+│   │   └── /styles
+│   │       ├── main.css
+│   │       └── theme.css
+│   ├── /components
+│   │   ├── AudioControls.js
+│   │   ├── PlaylistManager.js
+│   │   ├── Player.js
+│   │   ├── LyricsDisplay.js
+│   │   ├── Navbar.js
+│   │   ├── FullPlayerMode.js
+│   │   └── Authentication.js
+│   ├── /elements
+│   │   ├── Button.js
+│   │   ├── Input.js
+│   │   └── Modal.js
+│   ├── /pages
+│   │   ├── HomePage.js
+│   │   ├── LoginPage.js
+│   │   ├── SignupPage.js
+│   │   ├── ProfilePage.js
+│   │   └── PlayerPage.js
+│   ├── /hooks
+│   │   └── useAuth.js
+│   ├── /context
+│   │   ├── AuthContext.js
+│   │   └── PlaylistContext.js
+│   ├── /utils
+│   │   ├── api.js
+│   │   └── helpers.js
+│   ├── /services
+│   │   └── authService.js
+│   ├── /reducers
+│   │   └── playlistReducer.js
+│   ├── App.js
+│   ├── index.js
+│   └── setupTests.js
+└── package.json
